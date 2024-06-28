@@ -8,7 +8,7 @@ I am a final year student with an intense interest in IT and a dedication to sol
 ## Objective
 [Objective]
 
-As a final-year student pursuing Computer science, I am seeking an internship opportunity to apply my academic knowledge and develop practical skills in a professional setting. I am eager to contribute to a dynamic team, gain hands-on experience, and further my understanding inside a work enviroment. My goal is to leverage my enthusiasm, strong work ethic, and foundational expertise to make a meaningful impact during my internship.
+I'm a final-year computer science student seeking an internship to put my academic knowledge to use and hone my practical abilities in a working environment. I can't wait to add my skills to a cohesive team, get practical experience, and deepen my knowledge in a professional setting. During my internship, I want to use my passion, strong work ethic, and core knowledge to make a significant difference.
 
 ## Skills
 
