@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style  type="text/css">
+  body {
+       background-color: teal;
+     }
+
+  #container {
+	height: 500px;
+	width: 500px;
+	border: 1px solid black;
+	margin: 0 auto;
+
+	
+}
+
+h1 {
+	text-align: center;
+	color: white;
+
+}
+
+ h1 :hover {
+ color: blue;
+}
+
+.container2 {
+	text-align: center;
+}
+
+button {
+	height: 40px;
+	width:  100px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.colorGreen {
+    background-color: green;
+}
+
+.colorOrange {
+	background-color: orange;
+
+}
+
+.colorRed {
+	background-color: red;
+}
+    </style>
+</head>
+<body>
+    <div>
+      <marquee behavior="" direction="">
+        <h1>Lance Wa Ka Magamula is the best programmer in world</h1>
+      </marquee>
+    </div>
+    <div id="container"></div>
+    <div class="container2">
+      <button class="colorGreen" onclick="greenColor()">GREEN</button>
+      <button class="colorOrange" onclick="orangeColor()">ORANGE</button>
+      <button class="colorRed"   onclick="redColor()">RED</button>
+    </div>
+    
+    <script type="text/javascript">
+      let box = document.getElementById('container');
+
+function redColor(){
+
+  box.style.background = 'red';
+}
+
+function greenColor(){
+
+  box.style.background = 'green';
+}
+
+function orangeColor(){
+
+  box.style.background = 'orange';
+}
+      
+          </script>
+
+</body>
+</html>

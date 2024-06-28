@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8" />
+        <link href="css/style6.css" rel="stylesheet" />
+        <title>Tables</title>
+    </head>
+    <body>
+    <section id="main">
+        <table class="schedule">
+            <caption>All Times Central</caption>
+            <tr>
+                <th>Time</th> 
+                <th>Mon</th> <!--th is the table header in a row-->
+                <th>Tue</th> 
+                <th>Wed</th> 
+                <th>Thu</th> 
+                <th>Fri</th>
+                <th>Sat</th> 
+                <th>Sun</th>  
+            </tr>
+            <tr>
+                <th>06:00</th>
+                <td colspan="7">National News</td>
+                <!--A spanning cell is a single cell that occupies more than one cell row and/or column
+                row span is the number of rows to occupy and colspan is the number of columns to occupy--> 
+            </tr>
+            <tr>
+                <th>06:30</th>
+                <td colspan="7">World News</td> 
+            </tr> <!--tr marks a row on the table-->
+        <tfoot>
+            <tr>
+                <td colspan="8">This is a table footer</td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>
+    </body>
+
+</html>
